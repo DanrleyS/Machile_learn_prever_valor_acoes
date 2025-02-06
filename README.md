@@ -12,4 +12,5 @@ Pandas, NumPy e Scikit-learn
 Yahoo Finance API (yfinance)
 Pré-processamento e normalização de dados
 Modularização e criação de package Python para integração
+
 Este projeto demonstra habilidades em análise de dados financeiros, modelagem preditiva, automação de processos de dados e desenvolvimento de pacotes Python reutilizáveis e integráveis, sendo ideal para aplicações em finanças quantitativas, estratégias de investimento automatizado e integrações com sistemas de trading.
