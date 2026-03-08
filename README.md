@@ -1,3 +1,22 @@
+-------------------- Metodo de uso do package: -------------------------
+pip install package-trade==0.1.0
+
+criar um arquivo .py:
+
+import package_trader
+# Coletar dados para uma ação
+package_trader.collect_dates(ticker="PETR4.SA")
+# Processar os dados da ação
+package_trader.process()
+# Treinar o modelo machine learn
+package_trader.train_and_evaluate_model()
+# Fazer previsões
+package_trader.forecast_price()
+# Ou executar todo o processo com o main
+package_trader.main("PETR4.SA")
+
+
+
 📈 Machile_learn_prever_valor_acoes
 
 Uma solução completa em Python para previsão de preços de ações usando Machine Learning, oferecendo coleta de dados, pré-processamento, treinamento de modelos, avaliação e geração de previsões — tudo de forma modular e reutilizável.
