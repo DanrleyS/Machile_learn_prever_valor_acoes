@@ -10,8 +10,8 @@ package_trader.collect_dates(ticker="PETR4.SA")
 package_trader.process()
 # Treinar o modelo machine learn
 package_trader.train_and_evaluate_model()
-# Fazer previsões
-package_trader.forecast_price()
+# Fazer previsões (os intervalos devem ser superiores a 50 dias)
+package_trader.forecast_price(ticker="PETR4.SA", start_date="2025-10-01", end_date="2026-03-06", show_plot=True)
 # Ou executar todo o processo com o main
 package_trader.main("PETR4.SA")
 
